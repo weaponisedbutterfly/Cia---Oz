@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
 
-  # get '/', to: 'home'
+  get '/scarecrow', to: 'home#scarecrow'
 
   root to: 'character#home'
   # The priority is based upon order of creation: first created -> highest priority.

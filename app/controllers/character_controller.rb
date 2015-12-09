@@ -6,4 +6,7 @@ class CharacterController < ApplicationController
   def new
   end
 
+  def scarecrow
+  end
+
 end
